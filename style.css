@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: unset;
+    color: #fff;
+    font-size: 19px;
+    background: #181717;
+    border: 8px solid #280da0ee;
+    padding: 20px 20px;
+}
+
+.nav {
+    padding: 20px;
+}
+
+.nav h1 {
+    font-size: 22px;
+    display: inline;
+    margin-right: 26px;
+}
+
+.nav ul, footer ul {
+    list-style: none;
+    display: inline;
+}
+
+.nav ul li, footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav ul li a, footer ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home {
+    color: #a360b1ee;
+    margin-top: 90px;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
+    background-size: cover;
+    background-position: 0%;
+    min-height: 250px;
+    background-repeat: no-repeat;
+}
+
+img {
+    display: inline;
+    width: 70px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+
+#changing-text {
+  font-size: 36px;
+  color: red;
+  transition: all 0.5s ease-in-out;
+}
+
+footer {
+    margin: auto auto;
+    text-align: center;
+}
+
+.tool-tip {
+    visibility: hidden;
+}
+
+.tool-tip:hover {
+    visibility: visible;
+}
