@@ -2,8 +2,8 @@ const text = ["Web Development","3D Modeling","Hardware repairs", 'App Developme
 let holder = document.getElementById("changing-text");  
 
 function changeText() {
-  var index = Math.floor(Math.random() * texts.length);
-  var text = texts[index];
+  let index = Math.floor(Math.random() * texts.length);
+  let text = texts[index];
   holder.innerHTML = text;
 }
 
